@@ -25,5 +25,5 @@ add_action('wp_enqueue_scripts', 'carrega_scripts');
  */
 register_nav_menus([
     'meu_menu_principal' => 'Menu Principal',
-    //'idenficador' => 'Nome do menu',
+    'menu_rodape' => 'Menu Rodapé',
 ]);
