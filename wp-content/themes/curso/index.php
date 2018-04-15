@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Curso Wordpress</title>
-</head>
-<body>
-    <p></p>
-</body>
-</html>
+<?php get_header() ?>
+
+    <!-- Content -->
+    <div class="conteudo">
+        <main>
+            <section class="slide"></section>
+
+            <section class="servicos"></section>
+
+            <section class="meio">
+                <aside class="barra-lateral"></aside>
+                <div class="noticias"></div>
+            </section>
+
+            <section class="mapa"></section>
+        </main>
+    </div>
+    <!-- End Content -->
+
+<?php get_footer() ?>
