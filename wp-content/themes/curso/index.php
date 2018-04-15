@@ -18,13 +18,20 @@
                                 <?php the_post() ?>
 
                                 <h1><?php the_title() ?></h1>
-                                <p>
-                                    Publicado em <?= get_the_date() ?>
-                                    por <?php the_author() ?>
-                                </p>
-                                <p>Categorias: <?php the_category(' ') ?></p>
-                                <p><?php the_tags('Tags: ', ', ') ?></p>
-                                <p><?php the_content() ?></p>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <?php the_post_thumbnail([175, 120]) ?>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p>
+                                            Publicado em <?= get_the_date() ?>
+                                            por <?php the_author() ?>
+                                        </p>
+                                        <p>Categorias: <?php the_category(' ') ?></p>
+                                        <p><?php the_tags('Tags: ', ', ') ?></p>
+                                        <p><?php the_content() ?></p>
+                                    </div>
+                                </div>
                             <?php endwhile; ?>
                         
                         <?php else: ?>

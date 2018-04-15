@@ -27,3 +27,8 @@ register_nav_menus([
     'meu_menu_principal' => 'Menu Principal',
     'menu_rodape' => 'Menu Rodapé',
 ]);
+
+// Adicionando suporte ao tema
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
