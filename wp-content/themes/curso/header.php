@@ -19,9 +19,15 @@
             </div>
         </div>
 
-        <div class="area-menu">
-            <div class="logo">Logo</div>
-            <div class="menu-principal">Menu</div>
+        <div class="area-menu container">
+
+            <div class="row">
+                <div class="logo col-md-3">Logo</div>
+                <div class="menu-principal col-md-9 text-right">
+                    <?php wp_nav_menu(['theme_location' => 'meu_menu_principal']) ?>
+                </div>
+            </div>
+
         </div>
     </header>
     <!-- End Header -->
