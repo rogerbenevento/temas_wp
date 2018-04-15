@@ -1,5 +1,7 @@
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
     <!-- End Footer -->
 </body>
 </html>
